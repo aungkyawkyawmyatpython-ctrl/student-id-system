@@ -17,10 +17,12 @@ function StudentPage(){
           PHOTO
         </div>
         <h1>{student.name}</h1>
+        <div className = "qr-code">
         <QRCodeCanvas
-        value={`${window.location.origin}/student${student.id}`}
+        value={`${window.location.origin}/student/${student.id}`}
         size={180}
         />
+        </div>
         <div className="Information">
           <p>
             <strong>Student ID:</strong>
