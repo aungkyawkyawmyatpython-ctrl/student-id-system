@@ -1,3 +1,4 @@
+import {QRCodeCanvas} from "qrcode.react";
 import {BrowserRouter, Routes, Route, useParams} from "react-router-dom";
 import students from "./students";
 
@@ -16,6 +17,10 @@ function StudentPage(){
           PHOTO
         </div>
         <h1>{student.name}</h1>
+        <QRCodeCanvas
+        value={`${window.location.origin}/student${student.id}`}
+        size={180}
+        />
         <div className="Information">
           <p>
             <strong>Student ID:</strong>
