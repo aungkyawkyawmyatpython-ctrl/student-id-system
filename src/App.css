@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.page{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f4f7;
+}
+.student-card{
+  width: 350px;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.student-card h2{
+  font-size: 16px;
+  margin-bottom:25px;
+}
+
+.photo{
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e7eb;
+  border-radius: 10px;
+  color: #666;
+}
+
+.student-card h1{
+  margin-top: 20px;
+}
+
+.information {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.information p{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin: 8px 0;
+  background: #f5f6f8;
+  border-radius: 8px;
+}
