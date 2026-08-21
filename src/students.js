@@ -1,21 +1,24 @@
 const students = {
     "STU-001":{
         id: "STU-001",
-        name: "Aung Aung",
+        name: "Mary",
         className: "Grade 9",
-        status:"Active"
+        status:"Active",
+        photo: "/students/STU-001.jpg"
     },
     "STU-002":{
         id: "STU-002",
-        name:"Su Su",
+        name:"Alice",
         className: "Grade 9",
-        status:"Active"
+        status:"Active",
+        photo:"/students/STU-002.jpg"
     },
     "STU-003":{
         id: "STU-003",
-        name:"Kyaw Kyaw",
+        name:"Liz",
         className:"Grade 9",
-        status:"Active"
+        status:"Active",
+        photo:"/students/STU-003.jpg"
     }
 
 };
